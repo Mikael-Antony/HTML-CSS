@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/*folha de estilos*/
+body {
+    background-color: rgb(6, 4, 8);
+    color: rgb(243, 237, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
