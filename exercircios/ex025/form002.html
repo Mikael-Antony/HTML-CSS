@@ -10,11 +10,11 @@
     <form action="cadrasto.php" method="post">
         <p>
             <label for="iusu">Usuario: </label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="12" size="12" placeholder="Nome do Usuario">
         </p>
         <p>
             <label for="isen">Senha: </label>
-            <input type="password" name="sen" id="isen">
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="12" placeholder="min 8 caracteres" size="12" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
